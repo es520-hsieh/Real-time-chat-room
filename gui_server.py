@@ -3,8 +3,8 @@ import threading  # Make many threads run at the same time.
 
 # basic setup for server
 # ipconfig
-HOST = '127.0.0.1'
-PORT = 9090
+HOST = 'yours'
+PORT = yours
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((HOST, PORT))
